@@ -22,7 +22,7 @@ starten mit dotnet run
 docker run --name m165 -p:27017:27017 -d frm1971/m165-15
 ```
 ## anbindung an der db
-
+https://www.mongodb.com/docs/drivers/csharp/current/fundamentals/connection/connect/
 ````
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -220,6 +220,8 @@ Console.WriteLine("");
 ````
 
 ## agregate 
+
+https://www.mongodb.com/docs/drivers/csharp/current/fundamentals/aggregation/
 ````
 var aggregateResult = moviesCollection.Aggregate()
     .Match(m => m.Year >= 2000)
