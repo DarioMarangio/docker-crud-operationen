@@ -49,6 +49,7 @@ public class Movie
 }
 
 ````
+![movie class image](Movie_class_image.JPG)
 
 ## Get the database collection
 ````
